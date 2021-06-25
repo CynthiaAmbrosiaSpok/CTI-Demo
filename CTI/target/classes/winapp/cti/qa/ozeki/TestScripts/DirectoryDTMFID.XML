@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<CallScript xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DialedNumber="4445" SIPServer="10.50.128.153" CallTime="11/13/2017 10:57 AM">
+  <Actions>
+    <CommonActionBase xsi:type="JustWait" Name="da1a9430-8617-456c-8b91-2d0939d1b923">
+      <WaitTime>6903</WaitTime>
+      <Continue>true</Continue>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="SendDTMF" Name="8c006956-1751-4278-b138-241696964602">
+      <WaitTime>351</WaitTime>
+      <Continue>true</Continue>
+      <Digits>4</Digits>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="SendDTMF" Name="6a672367-44bf-43e7-b9ed-bad8e029991c">
+      <WaitTime>655</WaitTime>
+      <Continue>true</Continue>
+      <Digits>4</Digits>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="SendDTMF" Name="ced42ae8-b555-4367-a88e-8d7f72a7595e">
+      <WaitTime>744</WaitTime>
+      <Continue>true</Continue>
+      <Digits>1</Digits>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="SendDTMF" Name="ab8ec1bd-de83-4d46-b08f-6b55137d5147">
+      <WaitTime>500</WaitTime>
+      <Continue>true</Continue>
+      <Digits>6</Digits>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="TransferOutcome" Name="a6c0c945-d9ab-4f72-996e-44741d07b51d">
+      <WaitTime>40000</WaitTime>
+      <Continue>false</Continue>
+      <ExpectedTransferNumber>916036294262</ExpectedTransferNumber>
+    </CommonActionBase>
+    <CommonActionBase xsi:type="HangUpOutcome" Name="d1b576e0-74aa-4c52-b089-7128e16fb48c">
+      <WaitTime>1000</WaitTime>
+      <Continue>false</Continue>
+    </CommonActionBase>
+  </Actions>
+</CallScript>

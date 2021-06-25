@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="16.903" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="JOB_NAME" value="EmailTest"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/EmailTest/11/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="3"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Cynthia Ambrosia\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="7476b76d0c6c32ee"/>
+    <property name="POM_ARTIFACTID" value="CTI"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="CTI"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\CYNTHI~1\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="Cynthia Ambrosia"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="EmailTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/EmailTest/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="OneDrive" value="C:\Users\Cynthia Ambrosia\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Cynthia Ambrosia\AppData\Local"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="Cynthia Ambrosia"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/EmailTest/11/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\CYNTHI~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/EmailTest/11/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/EmailTest/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="CAMBROSIA-VM"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Cynthia Ambrosia"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="CAMBROSIA-VM"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="winapp.cti.qa"/>
+    <property name="user.home" value="C:\Users\Cynthia Ambrosia"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-EmailTest-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="7476b76d0c6c32ee"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Cynthia Ambrosia"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files (x86)\Amcom\bin\Spok CTI Client;C:\Program Files\Git\cmd;C:\Users\Cynthia Ambrosia\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Cynthia Ambrosia\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\Cynthia Ambrosia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Cynthia Ambrosia\.jenkins\war\WEB-INF\lib\remoting-4.9.jar C:\Users\Cynthia Ambrosia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Cynthia Ambrosia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61004"/>
+    <property name="Path" value="C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files (x86)\Amcom\bin\Spok CTI Client;C:\Program Files\Git\cmd;C:\Users\Cynthia Ambrosia\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="=D:" value="D:\"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\CYNTHI~1\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\Cynthia Ambrosia\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/EmailTest/11/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\Cynthia Ambrosia\Documents\eclipse-workspace\CTI"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/EmailTest/"/>
+    <property name="LOGONSERVER" value="\\CAMBROSIA-VM"/>
+    <property name="USERDOMAIN" value="CAMBROSIA-VM"/>
+    <property name="MAVEN_HOME" value="C:\Users\Cynthia Ambrosia\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="11"/>
+    <property name="PROCESSOR_REVISION" value="9e0a"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\Cynthia Ambrosia\Documents\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Cynthia Ambrosia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Cynthia Ambrosia\.jenkins\workspace\EmailTest@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\Cynthia Ambrosia\.jenkins\workspace\EmailTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Cynthia Ambrosia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase name="readyStateTest" classname="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest" time="16.903"/>
+  <testcase name="readyStateTest" classname="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest" time="15.24"/>
+  <testcase name="readyStateTest" classname="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest" time="13.743"/>
+  <testcase name="readyStateTest" classname="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest" time="13.951"/>
+  <testcase name="readyStateTest" classname="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest" time="13.32"/>
+</testsuite>

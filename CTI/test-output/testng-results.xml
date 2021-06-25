@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-23T15:27:13 PDT" name="TestSuite" finished-at="2021-06-23T15:28:16 PDT" duration-ms="62448">
+    <groups>
+    </groups>
+    <test started-at="2021-06-23T15:27:13 PDT" name="Spok CTI Client - Regression" finished-at="2021-06-23T15:28:16 PDT" duration-ms="62448">
+      <class name="winapp.cti.qa.testcases.phonecontrol.AgentStatusTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:13 PDT" name="beforeSuite" finished-at="2021-06-23T15:27:13 PDT" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\Program Files (x86)\Amcom\bin\Spok CTI Client\SpokCTIClient.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Program Files (x86)\3CXPhone\3CXPhone.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:13 PDT" name="beforeClass" finished-at="2021-06-23T15:27:13 PDT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:15 PDT" name="readyStateTest" data-provider="inputs" finished-at="2021-06-23T15:27:28 PDT" duration-ms="13860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ready]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success - 2021/06/23 14:17:39 (PDT)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:28 PDT" name="afterMethod" finished-at="2021-06-23T15:27:29 PDT" duration-ms="558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readyStateTest status=SUCCESS method=AgentStatusTest.readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:29 PDT" name="readyStateTest" data-provider="inputs" finished-at="2021-06-23T15:27:41 PDT" duration-ms="12367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Not-Ready]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success - 2021/06/23 14:18:00 (PDT)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:41 PDT" name="afterMethod" finished-at="2021-06-23T15:27:42 PDT" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readyStateTest status=SUCCESS method=AgentStatusTest.readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:42 PDT" name="readyStateTest" data-provider="inputs" finished-at="2021-06-23T15:27:53 PDT" duration-ms="11133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ready]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success - 2021/06/23 14:18:20 (PDT)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:53 PDT" name="afterMethod" finished-at="2021-06-23T15:27:53 PDT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readyStateTest status=SUCCESS method=AgentStatusTest.readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:27:53 PDT" name="readyStateTest" data-provider="inputs" finished-at="2021-06-23T15:28:04 PDT" duration-ms="11640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success - 2021/06/23 14:18:42 (PDT)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:28:04 PDT" name="afterMethod" finished-at="2021-06-23T15:28:05 PDT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readyStateTest status=SUCCESS method=AgentStatusTest.readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:28:05 PDT" name="readyStateTest" data-provider="inputs" finished-at="2021-06-23T15:28:16 PDT" duration-ms="10898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ready]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success - 2021/06/23 14:19:01 (PDT)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyStateTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:28:16 PDT" name="afterMethod" finished-at="2021-06-23T15:28:16 PDT" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=readyStateTest status=SUCCESS method=AgentStatusTest.readyStateTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:winapp.cti.qa.testcases.phonecontrol.AgentStatusTest@618425b5]" started-at="2021-06-23T15:28:16 PDT" name="afterSuite" finished-at="2021-06-23T15:28:16 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- winapp.cti.qa.testcases.phonecontrol.AgentStatusTest -->
+    </test> <!-- Spok CTI Client - Regression -->
+  </suite> <!-- TestSuite -->
+</testng-results>

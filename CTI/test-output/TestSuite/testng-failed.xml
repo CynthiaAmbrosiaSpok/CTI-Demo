@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="phoneApp" value="C:\Users\Cynthia Ambrosia\Downloads\TestHarness\OzekiDemoSoftphoneWPF.exe"/>
+  <parameter name="application" value="C:\Users\Cynthia Ambrosia\Documents\eclipse-workspace\CTIMethods2\src\main\java\winapp\cti\qa\spokcticlient\SpokCTIClient.exe"/>
+  <listeners>
+    <listener class-name="winapp.cti.qa.util.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="CTI Regression(failed)">
+    <parameter name="dataTable" value="C:\Users\Cynthia Ambrosia\Downloads\TestHarness\OzekiDemoSoftphoneWPF.exe"/>
+    <classes>
+      <class name="winapp.cti.qa.testcases.callcontrol.OutgoingCallTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="receiveLineTest" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- winapp.cti.qa.testcases.callcontrol.OutgoingCallTest -->
+      <class name="winapp.cti.qa.testcases.callcontrol.ReceiveLineTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="receiveLineTest" invocation-numbers="6"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- winapp.cti.qa.testcases.callcontrol.ReceiveLineTest -->
+      <class name="winapp.cti.qa.testcases.callcontrol.TransferCallTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="transferCall" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- winapp.cti.qa.testcases.callcontrol.TransferCallTest -->
+    </classes>
+  </test> <!-- CTI Regression(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

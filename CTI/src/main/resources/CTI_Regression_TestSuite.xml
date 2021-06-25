@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="tests" thread-count="2">
+	
+	<listeners>
+<!-- 		<listener class-name="generalfunctions.Listeners"></listener> -->
+<!-- 		<listener class-name="com.jostens.qa.analyzer.MyTransformer"></listener> -->
+		<listener class-name="winapp.cti.qa.util.Listeners"></listener>
+	</listeners>
+	
+<!--	<parameter name="application" value="C:\Program Files (x86)\Amcom\bin\Spok CTI Client\SpokCTIClient.exe"/>-->
+	<parameter name="application" value="C:\Users\Cynthia Ambrosia\Documents\eclipse-workspace\CTIMethods2\src\main\java\winapp\cti\qa\spokcticlient\SpokCTIClient.exe"/>
+<!--	<parameter name="phoneApp" value="C:\Program Files (x86)\3CXPhone\3CXPhone.exe"/>-->
+	<parameter name="phoneApp" value="C:\Users\Cynthia Ambrosia\Downloads\TestHarness\OzekiDemoSoftphoneWPF.exe"/>
+	
+	<test name="CTI Regression">
+		
+		<parameter name="dataTable" value="C:\Users\Cynthia Ambrosia\Downloads\TestHarness\OzekiDemoSoftphoneWPF.exe"/>
+		
+		<classes>
+			<class name="winapp.cti.qa.testcases.applications.InitializeApplications"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.LoginTest"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.AgentStatusTest">
+<!--				<parameter name="agentStatus" value="Ready"/>-->
+			</class>
+			<class name="winapp.cti.qa.testcases.callcontrol.ReceiveLineTest">
+<!--				<parameter name="callType" value="ACDPilotNumber"/>-->
+			</class>
+			<class name="winapp.cti.qa.testcases.callcontrol.OutgoingCallTest"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.TransferCallTest"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.BlindTransferCallTest"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.ConferenceCallTest"></class>
+			<class name="winapp.cti.qa.testcases.callcontrol.LogoutTest"></class>
+			<class name="winapp.cti.qa.testcases.applications.CloseApplications"></class>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,196 @@
+<html>
+<head>
+<title>TestNG:  Test 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 20 13:46:03 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>130 seconds (130990 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jostens.qa.testcases.CheckoutPageTest.ftest2()'><b>ftest2</b><br>Test class: com.jostens.qa.testcases.CheckoutPageTest</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void com.jostens.qa.testcases.CheckoutPageTest.ftest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: ftest2([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=12, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=13, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=14, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=15, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=16, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 5555555555554444,(java.lang.String) Cynthia Ambrosia,(java.lang.String) Success - 2020/12/20 13:48:14,(java.lang.String) 096,(java.lang.String) Invalid CC Number,null,(java.lang.String) 1]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace576368762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace576368762'><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void com.jostens.qa.testcases.CheckoutPageTest.ftest2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: ftest2([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=4, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=5, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=6, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=7, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=8, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=9, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=10, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=11, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=12, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=13, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=14, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=15, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=16, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) 5555555555554444,(java.lang.String) Cynthia Ambrosia,(java.lang.String) Success - 2020/12/20 13:48:14,(java.lang.String) 096,(java.lang.String) Invalid CC Number,null,(java.lang.String) 1]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.CheckoutPageTest@bd4dc25</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jostens.qa.testcases.LoginPageTest.aloginTest()'><b>aloginTest</b><br>Test class: com.jostens.qa.testcases.LoginPageTest<br>Parameters: https://www.jostens.com/, Customer, john.dang@valtira.net, valtira12345, john dang, y, Success - 2020/12/20 12:48:13, null, 1</td>
+<td></td>
+<td>7</td>
+<td>com.jostens.qa.testcases.LoginPageTest@3d6f0054</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.LoginPageTest.aloginTest()'><b>aloginTest</b><br>Test class: com.jostens.qa.testcases.LoginPageTest<br>Parameters: https://www.jostens.com/, Customer, Steve.VerMulm@gmail.com, MorningsideMustang124, Steven VerMulm, n, Success - 2020/12/20 12:48:16, null, 2</td>
+<td></td>
+<td>2</td>
+<td>com.jostens.qa.testcases.LoginPageTest@3d6f0054</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.HomePageTest.bsearchForSchoolTest()'><b>bsearchForSchoolTest</b><br>Test class: com.jostens.qa.testcases.HomePageTest<br>Parameters: Chaska Middle School East, Chaska Middle School East Chaska, MN Products - Graduation Products from Jostens, Success - 2020/12/20 12:48:19, 1</td>
+<td></td>
+<td>2</td>
+<td>com.jostens.qa.testcases.HomePageTest@505fc5a4</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.HomePageTest.bsearchForSchoolTest()'><b>bsearchForSchoolTest</b><br>Test class: com.jostens.qa.testcases.HomePageTest<br>Parameters: Chaska High School, Chaska High School Chaska, MN Products - Graduation Products from Jostens, Success - 2020/12/20 12:48:23, 2</td>
+<td></td>
+<td>3</td>
+<td>com.jostens.qa.testcases.HomePageTest@505fc5a4</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.SchoolStorePageTest.cproductSearchTest()'><b>cproductSearchTest</b><br>Test class: com.jostens.qa.testcases.SchoolStorePageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee - Jostens School Store, Black/White, XL, 1, Right Chest, 31, 35, 11, 7.7, Success - 2020/12/20 12:48:49, 1</td>
+<td></td>
+<td>26</td>
+<td>com.jostens.qa.testcases.SchoolStorePageTest@5fbdfdcf</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.SchoolStorePageTest.cproductSearchTest()'><b>cproductSearchTest</b><br>Test class: com.jostens.qa.testcases.SchoolStorePageTest<br>Parameters: Next Level Unisex Triblend Long Sleeve Pullover Hoodie, Next Level Unisex Triblend Long Sleeve Pullover Hoodie - Jostens School Store, White, M, 2, Center Chest, 35, 20, 30, 21, Success - 2020/12/20 12:49:10, 2</td>
+<td></td>
+<td>21</td>
+<td>com.jostens.qa.testcases.SchoolStorePageTest@5fbdfdcf</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.SchoolStorePageTest.cproductSearchTest()'><b>cproductSearchTest</b><br>Test class: com.jostens.qa.testcases.SchoolStorePageTest<br>Parameters: 3 Ply Sublimated Mask, 3 Ply Sublimated Mask - Jostens School Store, White, L/XL, 6, Mask Center, 35, 37, 30, 21, Success - 2020/12/20 12:49:31, 3</td>
+<td></td>
+<td>21</td>
+<td>com.jostens.qa.testcases.SchoolStorePageTest@5fbdfdcf</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ShoppingCartPageTest.daddProductToCartTest()'><b>daddProductToCartTest</b><br>Test class: com.jostens.qa.testcases.ShoppingCartPageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, Your Shopping Cart - Jostens School Store, $24.95, 1, $24.95, $77.85, Failure - 2020/12/20 12:52:54, 1</td>
+<td></td>
+<td>1</td>
+<td>com.jostens.qa.testcases.ShoppingCartPageTest@4efc180e</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ShoppingCartPageTest.daddProductToCartTest()'><b>daddProductToCartTest</b><br>Test class: com.jostens.qa.testcases.ShoppingCartPageTest<br>Parameters: Next Level Unisex Triblend Long Sleeve Pullover Hoodie, Your Shopping Cart - Jostens School Store, $33.95, 1, $33.95, $77.85, Success - 2020/12/20 12:49:34, 2</td>
+<td></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.ShoppingCartPageTest@4efc180e</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.ShoppingCartPageTest.daddProductToCartTest()'><b>daddProductToCartTest</b><br>Test class: com.jostens.qa.testcases.ShoppingCartPageTest<br>Parameters: 3 Ply Sublimated Mask, Your Shopping Cart - Jostens School Store, $18.95, 1, $18.95, $77.85, Success - 2020/12/20 12:49:34, 3</td>
+<td></td>
+<td>0</td>
+<td>com.jostens.qa.testcases.ShoppingCartPageTest@4efc180e</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.CheckoutPageTest.eproceedWithCheckoutTest()'><b>eproceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.CheckoutPageTest<br>Parameters: New Era Men's Heritage Blend 3/4-Sleeve Baseball Raglan Tee, 1, $24.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Steven, VerMulm, 409 5th Ave. South, Hopkins, United States, Minnesota, 55343, 7123635520, No, Success - 2020/12/20 12:49:44, 1</td>
+<td></td>
+<td>9</td>
+<td>com.jostens.qa.testcases.CheckoutPageTest@bd4dc25</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.CheckoutPageTest.eproceedWithCheckoutTest()'><b>eproceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.CheckoutPageTest<br>Parameters: Next Level Unisex Triblend Long Sleeve Pullover Hoodie, 1, $33.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Ashlyn, Ambrose, 409 Beachcomber Drive, Lake Park, United States, Iowa, 51347, 7123632575, No, Success - 2020/12/20 12:49:52, 2</td>
+<td></td>
+<td>7</td>
+<td>com.jostens.qa.testcases.CheckoutPageTest@bd4dc25</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.CheckoutPageTest.eproceedWithCheckoutTest()'><b>eproceedWithCheckoutTest</b><br>Test class: com.jostens.qa.testcases.CheckoutPageTest<br>Parameters: 3 Ply Sublimated Mask, 1, $18.95, Information - Jostens School Store - Checkout, Steve.VerMulm@gmail.com, No, Cynthia, Ambrosia, 62310 Lake View Road, Madison Lake, United States, Minnesota, 56063, 7123635519, No, Success - 2020/12/20 12:50:00, 3</td>
+<td></td>
+<td>11</td>
+<td>com.jostens.qa.testcases.CheckoutPageTest@bd4dc25</td></tr>
+<tr>
+<td title='com.jostens.qa.testcases.PaymentPageTest.gtest()'><b>gtest</b><br>Test class: com.jostens.qa.testcases.PaymentPageTest<br>Parameters: 5555555555554444, Cynthia Ambrosia, Success - 2020/12/20 12:50:10, 096, Invalid CC Number, null, 1</td>
+<td></td>
+<td>9</td>
+<td>com.jostens.qa.testcases.PaymentPageTest@25084a1e</td></tr>
+</table><p>
+</body>
+</html>
